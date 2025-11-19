@@ -1,10 +1,17 @@
 import "./App.css";
 
+// components
+import Header from "./Header";
+import PostSection from "./PostSection";
+import SideMenu from "./SideMenu";
+
 function App() {
     return (
-        <>
-            <div>props challenge</div>
-        </>
+        <div className={"layout"}>
+            <Header />
+            <PostSection />
+            <SideMenu />
+        </div>
     );
 }
 
